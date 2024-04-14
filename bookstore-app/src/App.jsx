@@ -2,7 +2,7 @@ import { useState } from 'react';
 import reactLogo from './assets/react.svg';
 import viteLogo from '/vite.svg';
 import './App.css';
-
+/* added an ID aspect to each book so it's easy to categorize */
 const bookData = {
   "fiction": [
     {"id": 1, "title": "The Great Gatsby", "author": "F. Scott Fitzgerald", "price": 10.00},

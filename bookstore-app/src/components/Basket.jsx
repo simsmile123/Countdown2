@@ -7,7 +7,7 @@ function Basket({ basket }) {
       <ul>
         {basket.map((item, index) => (
           <li key={index}>
-            <strong>{item.title}</strong> by {item.author} - ${item.price}
+            <strong>{item.title}</strong> by {item.author} - this is the price: ${item.price}
           </li>
         ))}
       </ul>
